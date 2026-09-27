@@ -24,10 +24,10 @@ def maze_solver_with_conveyors(maze: list[list[str]]) -> dict:
         end = start
         
     directions = [
-        (-1, 0),  # ขึ้น
-        (1, 0),   # ลง
-        (0, -1),  # ซ้าย
-        (0, 1)    # ขวา
+        (-1, 0),  
+        (1, 0),   
+        (0, -1),  
+        (0, 1)    
     ]
 
     conveyor = {
